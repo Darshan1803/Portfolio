@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Darshan Patel - Software Developer Portfolio</title>
+    <link rel="stylesheet" href="A6.css">
+    <script src="A6.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Darshan Patel</h1>
+        <h2>Software Developer</h2>
+        <p>Innovative and driven, dedicated to creating impactful solutions through code.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="brand">Quick Links</a>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#summary">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Resume</a></li> <!-- Updated to link to the Contact section -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container with About Me, Education, and Image -->
+    <div class="container">
+        <!-- About Me and Education on One Side -->
+        <div class="text-sections">
+            <section id="summary" class="section">
+                <h2>About Me</h2>
+                <p>
+                    I am a dedicated and results-oriented <span class="highlight">software developer</span> with a passion for designing and building impactful digital solutions. 
+                    My journey in technology has been driven by a commitment to solving complex problems and delivering seamless user experiences.
+                </p>
+                <ul>
+                    <li>Skilled in <span class="highlight">full-stack development</span>, with hands-on expertise in <span class="highlight">JavaScript</span>, <span class="highlight">React</span>, <span class="highlight">Node.js</span>, and <span class="highlight">Python</span>.</li>
+                    <li>Experienced in creating <span class="emphasize">responsive</span>, <span class="emphasize">secure</span>, and <span class="emphasize">scalable</span> applications across multiple platforms.</li>
+                    <li>Quick to adapt and continuously improving my skills to stay current with evolving technologies.</li>
+                    <li>Effective communicator and collaborator who thrives in team environments to create <span class="highlight">efficient, high-quality solutions</span>.</li>
+                    <li>Known for a <span class="highlight">keen eye for detail</span> and a strong analytical mindset, enabling efficient debugging and optimization.</li>
+                </ul>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <p><strong>Diploma in Computer System Technology</strong></p>
+                    <p>Mohawk College, Fennell Campus</p>
+                    <p>Hamilton, ON</p>
+                    <p>2021 - 2024</p>
+                </div>
+                <div class="education-item">
+                    <p><strong>Class 10-12 | PCM (Physics, Chemistry, Mathematics)</strong></p>
+                    <p>Sadhana Vinay Mandir School</p>
+                    <p>Ahmedabad, Gujarat, India</p>
+                    <p>2019 - 2021</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Image on the Other Side -->
+        <div class="image-container">
+            <img src="me.jpg" alt="Photo">
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+
+            <!-- Front-End Skills -->
+            <div class="skills-category">
+                <h3>Front-End Skills</h3>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;">95%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;">95%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>React.js</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Bootstrap</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Back-End Skills -->
+            <div class="skills-category">
+                <h3>Back-End Skills</h3>
+                <div class="skill">
+                    <span>Node.js</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Java</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>PHP</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>ASP.NET</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>SQL</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Platforms -->
+            <div class="skills-category">
+                <h3>Tools & Platforms</h3>
+                <div class="skill">
+                    <span>Git</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>GitHub</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Agile Development</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <!-- Project Cards -->
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>A responsive weather application built using <strong>JavaScript</strong> and <strong>React</strong>. It fetches real-time weather data from an API and displays current conditions and forecasts.</p>
+            </div>
+            <div class="project-card">
+                <h3>Inventory Management System</h3>
+                <p>Developed with <strong>Python</strong> and <strong>Django</strong>, this system helps small businesses track inventory, manage stock levels, and generate reports.</p>
+            </div>
+            <div class="project-card">
+                <h3>Personal Blog</h3>
+                <p>Created using <strong>WordPress</strong> with custom themes and plugins. Features a CMS that allows users to easily publish and manage posts and media.</p>
+            </div>
+            <div class="project-card">
+                <h3>Task Tracker</h3>
+                <p>An application for tracking daily tasks, built with <strong>Node.js</strong> and <strong>Express</strong>. It includes user authentication and CRUD operations for tasks.</p>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website developed with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> to showcase projects and skills. Designed for responsive display on all devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="contact-grid">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form action="https://darshanpatel5183@gmail.com/submit-query" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <!-- Spacer Column -->
+            <div class="spacer"></div>
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Phone: <a href="tel:+1 6138703337">+1 (613) 870-3337</a></p>
+                <p>Email: <a href="mailto:darshanpatel5183@gmail.com">darshanpatel5183@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/darshan-patel-6350552ab/" target="_blank">linkedin.com/in/DarshanPatel</a></p>
+                <div class="social-icons">
+                    <a href="https://github.com/Darshan1803" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61553462234353" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/pateldarshan_8103/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+                <a href="resume.pdf" download class="download-button">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
